@@ -1,0 +1,19 @@
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+&lt;h1 id="myH"&gt;&lt;/h1&gt;
+&lt;p id="myP"&gt;&lt;/p&gt;
+
+&lt;script&gt;
+/&#42;
+The code below will change
+the heading with id = "myH"
+and the paragraph with id = "myP"
+&#42;/
+document.getElementById("myH").innerHTML = "JavaScript Comments";
+document.getElementById("myP").innerHTML = "My first paragraph.";
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;

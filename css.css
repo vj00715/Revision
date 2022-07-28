@@ -1,0 +1,65 @@
+
+*{
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+}
+body{
+    background: linear-gradient(to bottom right, #00ffff 0%, #0099ff 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.navbar{
+    /*background-color: lightsteelblue;*/
+    background-color: transparent;
+}
+.nav-link{
+    color: rgb(79, 79, 252);
+    font-size: 1.2em;
+}
+.navbar-brand{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: navy;
+}
+.info{
+    margin: auto;
+    text-align: center;
+    text-transform: capitalize;
+}
+.info > h1{
+    color: navy;
+}
+.info > p{
+    color: rgb(79, 79, 252);
+}
+.card{
+    border: 1px solid navy;
+    box-shadow:3px 3px navy;
+    background: linear-gradient(to top left, #00ffff 0%, #0099ff 100%);
+}
+.card-body{
+    text-transform: capitalize;
+}
+.card img{
+    width: 189.5px;
+    height: 189.5px;
+}
+.card{
+    margin-top: 30px;
+}
+.card-title{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif
+}
+footer{
+    text-transform: capitalize;
+    font-size: 1.5em;
+    color: navy;
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+}
+.btn{
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+}

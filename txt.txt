@@ -1,0 +1,23 @@
+<div class="option007">
+        <div class="card" id="html5" style="width: 12rem;">
+          <img src="html5.png" class="card-img-top" alt="html">
+          <div class="card-body">
+            <h5 class="card-title">HTML.</h5>
+            <a href="#" class="btn btn-primary" id="html5">notes</a>
+          </div>
+        </div>
+        <div class="card" style="width: 12rem;">
+          <img src="CSS3.svg" class="card-img-top" alt="CSS">
+          <div class="card-body">
+            <h5 class="card-title">CSS.</h5>
+            <a href="#" class="btn btn-primary">notes</a>
+          </div>
+        </div>
+        <div class="card" style="width: 12rem;">
+          <img src="Javascript_Logo.png" class="card-img-top" alt="Java">
+          <div class="card-body">
+            <h5 class="card-title">JAVASCRIPT.</h5>
+            <a href="#" class="btn btn-primary">notes</a>
+          </div>
+        </div>
+      </div>

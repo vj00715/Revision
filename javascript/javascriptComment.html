@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Comments</title>
+</head>
+<body>
+    <h1>JavaScript Comments</h1>
+    <p>JavaScript comments can be used to explain JavaScript code, and to make it more readable.</p>
+    <p>JavaScript comments can also be used to prevent execution, when testing alternative code.</p>
+    <p>
+        <h3>Single Line Comments</h3>
+        <p>
+            Single line comments start with //.<br>
+
+Any text between // and the end of the line will be ignored by JavaScript (will not be executed).<br>
+
+This example uses a single-line comment before each code line:<br>
+        </p>
+    </p>
+    <p>
+        &lt;!DOCTYPE html&gt;<br>
+        &lt;html&gt;<br>
+        &lt;body&gt;<br>
+
+        &lt;h1 id="myH"&gt;&lt;/h1&gt;<br>
+        &lt;p id="myP"&gt;&lt;/p&gt;<br>
+
+        &lt;script&gt;<br>
+        // Change heading:
+        document.getElementById("myH").innerHTML = "JavaScript Comments";
+        // Change paragraph:
+        document.getElementById("myP").innerHTML = "My first paragraph.";
+        &lt;/script&gt;<br>
+
+        &lt;/body&gt;<br>
+        &lt;/html&gt;
+    </p>
+    <p>
+        <h3>Multi-line Comments</h3>
+        <p>
+            Multi-line comments start with /&#42; and end with &#42;/.<br>
+
+Any text between /* and */ will be ignored by JavaScript.<br>
+
+This example uses a multi-line comment (a comment block) to explain the code:<br>
+        </p>
+    </p>
+    <h3>Example</h3>
+    <p>
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+        &lt;body&gt;
+
+        &lt;h1 id="myH"&gt;&lt;/h1&gt;
+        &lt;p id="myP"&gt;&lt;/p&gt;
+
+        &lt;script&gt;
+        /&#42;
+        The code below will change
+        the heading with id = "myH"
+        and the paragraph with id = "myP"
+        &#42;/
+        document.getElementById("myH").innerHTML = "JavaScript Comments";
+        document.getElementById("myP").innerHTML = "My first paragraph.";
+        &lt;/script&gt;
+
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </p>
+</body>
+</html>
